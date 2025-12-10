@@ -9,6 +9,6 @@ jobs:
   build:
     runs-on: [ "{{cookiecutter.github_runner_scale_set_name}}" ]
     steps:
-      - uses: "actions/checkout@v4"
+      - uses: "actions/checkout@v6"
       - name: "TODO to Issue"
         uses: "alstr/todo-to-issue-action@v4"
