@@ -10,7 +10,7 @@ jobs:
     runs-on: [ "{{cookiecutter.github_runner_scale_set_name}}" ]
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: eclint
         uses: reviewdog/action-eclint@v1
         with:
